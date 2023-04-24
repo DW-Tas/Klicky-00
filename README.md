@@ -1,4 +1,4 @@
-# KlickyNG-00: Zero offset in X/Y Z endstop/probe (WIP)
+# KlickyNG-00: Zero offset X/Y probe (WIP)
 
 Building on the amazing work of JosAr ([KlickyNG](https://github.com/jlas1/Klicky-Probe)) and Majarspeed ([Unklicky](https://github.com/majarspeed/Unklicky)) this mod moves the probe directly under the nozzle (X,Y 0,0) and also has the nozzle touching the probe so that you can reliably use it as your z endstop with consistent z-offset. All the usual caveats about clean nozzles during probing apply here too.
 
