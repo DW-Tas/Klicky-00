@@ -2,6 +2,11 @@
 
 Building on the amazing work of JosAr ([KlickyNG](https://github.com/jlas1/Klicky-Probe)) and Majarspeed ([Unklicky](https://github.com/majarspeed/Unklicky)) this mod moves the probe directly under the nozzle (X,Y 0,0) and also has the nozzle touching the probe so that you can reliably use it as your z endstop with consistent z-offset. All the usual caveats about clean nozzles during probing apply here too.
 
+The goal of this probe is to give TAP-like consistency with repeatable Z-offset even when changing nozzles.
+#### Constraints:
+* Low cost
+* Easy access to required parts
+* Simple add-on to existing ecosystem
 
 ### Warning: This is early work in progress
 It has been tested on Xol 2 and is giving good results. The Stealthburner version is built from CAD and is yet to be tested.
