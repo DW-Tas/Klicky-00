@@ -10,7 +10,7 @@ The goal of this probe is to give TAP-like consistency with repeatable Z-offset 
 
 ### Warning: This is early work in progress
 It has been tested on Xol 2 and is giving good results. The Stealthburner version is built from CAD and is yet to be tested.
-The early testing has been done on the NG version (KlikcyNG-00) and a standard Klicky version (Klicky-00) will be available soon.
+The early testing has been done on the NG version (KlikcyNG-00) and a standard Klicky version (Klicky-00) has been uploaded, but isn't tested yet.
 
 ### But why another probe?
 Like many others, I installed Voron TAP and loved the consistency, repeatability and user experience, but I didn't like the extra complexity, weight and instability added to the toolhead.
