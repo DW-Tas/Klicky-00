@@ -12,6 +12,10 @@ The goal of this probe is to give TAP-like consistency with repeatable Z-offset 
 It has been tested on Xol 2 and is giving good results. The Stealthburner version is built from CAD and is yet to be tested.
 The early testing has been done on the NG version (KlikcyNG-00) and a standard Klicky version (Klicky-00) has been uploaded, but isn't tested yet.
 
+
+### Use 6mm x 3mm magnets
+I have designed this around 6x3mm magnets and it will probably fail with the 6x2.7mm magnets that are also common. Preferably N52 for at least the probe "spring" magnets.
+
 ### But why another probe?
 Like many others, I installed Voron TAP and loved the consistency, repeatability and user experience, but I didn't like the extra complexity, weight and instability added to the toolhead.
 I had previously used KlickyNG with auto-z calibration scripts and while that was good, I ALWAYS had to watch the first layer and make micro-adjustments to Z offset.
