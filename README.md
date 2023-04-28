@@ -1,4 +1,4 @@
-# KlickyNG-00: Zero X,Y offset probe (WIP)
+# Klicky-00: Zero X,Y offset probe (WIP)
 
 Building on the amazing work of JosAr ([KlickyNG](https://github.com/jlas1/Klicky-Probe)) and Majarspeed ([Unklicky](https://github.com/majarspeed/Unklicky)) this mod moves the probe directly under the nozzle (X,Y 0,0) and also has the nozzle touching the probe so that you can reliably use it as your z endstop with consistent z-offset. All the usual caveats about clean nozzles during probing apply here too.
 
@@ -10,6 +10,7 @@ The goal of this probe is to give TAP-like consistency with repeatable Z-offset 
 
 ### Warning: This is early work in progress
 It has been tested on Xol 2 and is giving good results. The Stealthburner version is built from CAD and is yet to be tested.
+The early testing has been done on the NG version (KlikcyNG-00) and a standard Klicky version (Klicky-00) will be available soon.
 
 ### But why another probe?
 Like many others, I installed Voron TAP and loved the consistency, repeatability and user experience, but I didn't like the extra complexity, weight and instability added to the toolhead.
