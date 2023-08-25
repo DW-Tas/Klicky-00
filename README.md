@@ -1,4 +1,4 @@
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/O5O5OCC0K)
+[![ko-fi](images/kofi_bg_tag_white.png)](https://ko-fi.com/O5O5OCC0K)
 
 # Klicky-00: Zero X,Y offset probe (WIP)
 
