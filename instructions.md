@@ -17,7 +17,9 @@ The probe is built from components of other projects. The original part of this 
 | 1   | PCB Klicky Lower kit | Lower PCB with switch removed, magnets, screws and heatset inserts that came with the kit or equivalent |
 | 5   | 6x3mm Disc Magnets   | Probably a mix of N52 and N35 strength for adjustability                                                |
 | 4   | M2.5 x 20mm SHCS     | Swing arm hinges                                                                                        |
-| 2   | Lengths of wire      | Less than 2mm sheathing diameter                                                                        |
+| 2   | Lengths of wire      | Less than 2mm sheathing diameter, approx 100mm                                                          |
+| 1   | M3 x 16mm SHCS       | Unklicky probe stylus retention screw                                                                   |
+
 
 ### Instructions
 | Note                                                                                                                                                                                                                                                                                                                      | Picture                                         |
