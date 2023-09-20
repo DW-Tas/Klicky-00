@@ -1,32 +1,44 @@
-[![ko-fi](images/kofi_bg_tag_white.png)](https://ko-fi.com/O5O5OCC0K)
-
 # Klicky-00: Zero X,Y offset probe (WIP)
 
-Building on the amazing work of JosAr ([KlickyNG](https://github.com/jlas1/Klicky-Probe)) and Majarspeed ([Unklicky](https://github.com/majarspeed/Unklicky)) this mod moves the probe directly under the nozzle (X,Y 0,0) and also has the nozzle touching the probe so that you can reliably use it as your z endstop with consistent z-offset. All the usual caveats about clean nozzles during probing apply here too.
+Building on the amazing work of JosAr ([KlickyNG](https://github.com/jlas1/Klicky-Probe)), whoppingpochard ([PCB Klicky](https://github.com/tanaes/whopping_Voron_mods/tree/main/pcb_klicky)), and Majarspeed ([Unklicky](https://github.com/majarspeed/Unklicky)) this mod moves the probe directly under the nozzle (X,Y 0,0) and also has the nozzle touching the probe so that you can reliably use it as your z endstop with consistent z-offset. All the usual caveats about clean nozzles during probing apply here too.
 
 The goal of this probe is to give TAP-like consistency with repeatable Z-offset even when changing nozzles.
+
+![render](images/PCB_Klicky-00_Xol-Toolhead_render.png)
+<br/> <br/>
+![with toolhead](images/PCB_Klicky-00_Xol-Toolhead_assembly.png)
+<br/> <br/>
+![right profile](images/PCB_Klicky-00_Xol-Toolhead_right.png)
+<br/> <br/>
+[![ko-fi](images/kofi_bg_tag_white.png)](https://ko-fi.com/O5O5OCC0K)
+
+
+> [!WARNING]  
+> Only available for Xol-Toolhead on Xol-Carriage at this stage.
+
 #### Constraints:
 * Low cost
 * Easy access to required parts
 * Simple add-on to existing ecosystem
 
 ### Warning: This is early work in progress
-It has been tested on Xol 2 and is giving good results. The Stealthburner version is built from CAD and is yet to be tested.
-The early testing has been done on the NG version (KlikcyNG-00) and a standard Klicky version (Klicky-00) has been uploaded, but isn't tested yet.
+It has been tested on Xol-Toolhead and is giving good results. All early development will be based on PCB Klicky for consistent mounting pattern. There may be other attachment methods in the future, but for now PCB Klicky is it.
 
 
 ### Use 6mm x 3mm magnets
-I have designed this around 6x3mm magnets and it will probably fail with the 6x2.7mm magnets that are also common. Preferably N52 for at least the probe "spring" magnets.
+I have designed this around 6x3mm magnets and it will probably fail with the 6x2.7mm magnets that are also common. A mix of N52 and N35 magnets are most likely needed to help "tune" attraction and spring forces.
+
+### Build Guide
+Go to the [instructions](instructions.md)
+
 
 ### But why another probe?
 Like many others, I installed Voron TAP and loved the consistency, repeatability and user experience, but I didn't like the extra complexity, weight and instability added to the toolhead.
 I had previously used KlickyNG with auto-z calibration scripts and while that was good, I ALWAYS had to watch the first layer and make micro-adjustments to Z offset.
 
-This probe takes the reliable docking hardware and software of the KlickyNG and the high accuracy of the Unklicky BFP and puts them in contact with the probe for repatable z-offset and zero XY offset.
+This probe takes the reliable docking hardware and software of the PCB Klicky and the high accuracy of the Unklicky BFP and puts them in contact with the probe for repatable z-offset and zero XY offset.
 
-![KlickyNG-00 on Xol 2](images/Xol2.png) ![KlickyNG-00 on Voron Stealthburner](images/stealthburner.png)
-
-Initial testing in a Voron 2.4R2(300mm) with Xol 2 toolhead looks promising.
+Initial testing in a Voron 2.4R2(300mm) with Xol-Toolhead looks promising.
 probe_accuracy standard deviation results vary from 0.0005 to 0.0025 on my printer and that is similar to what I got with TAP.
 
 Drift was also very low with bed temp at 118°C, nozzle 200°C and chamber ~57°C
