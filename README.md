@@ -14,7 +14,7 @@ The goal of this probe is to give TAP-like consistency with repeatable Z-offset 
 
 
 > [!WARNING]  
-> Only available for Xol-Toolhead on Xol-Carriage at this stage.
+> Only available for Xol-Toolhead on Xol-Carriage [or untested Archetype version] at this stage.
 
 #### Constraints:
 * Low cost
