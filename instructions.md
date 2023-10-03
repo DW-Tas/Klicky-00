@@ -36,7 +36,7 @@ The probe is built from components of other projects. The original part of this 
 | Install the other two swing arm screws                                                                                                                                                                                                                                                                                    | ![Alt text](images/probe_attach_arms2.png)      |
 | Solder the probe wires to the bottom of the PCB Klicky lower PCB. One in the front, one at the back. Middle hole stays empty                                                                                                                                                                                              | ![Alt text](images/probe_solder_wires.png)      |
 | Install the magnets that live under the PCB. The rear one should attract to the dock, the other should repel the lower swing arm. You may need to swap between N35 and N52 magnets to get just enough spring force to activate the swing arm. Too much won't let the arm move and will push the klicky PCB magnets apart. | ![Alt text](images/probe_rear_body_magnets.png) |
-| Install the Klicky PCB magnets with the counter sunk screws. Get your polarity right. | ![Alt text](probe_install_pcb_magnets.png)      |
+| Install the Klicky PCB magnets with the counter sunk screws. Get your polarity right. | ![Alt text](images/probe_install_pcb_magnets.png)      |
 
 
 
