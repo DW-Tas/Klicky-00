@@ -21,8 +21,8 @@ The goal of this probe is to give TAP-like consistency with repeatable Z-offset 
 * Easy access to required parts
 * Simple add-on to existing ecosystem
 
-### Warning: This is early work in progress
-It has been tested on Xol-Toolhead and is giving good results. All early development will be based on PCB Klicky for consistent mounting pattern. There may be other attachment methods in the future, but for now PCB Klicky is it.
+### Warning: This is work in progress
+It has been tested on Xol-Toolhead and is giving good results. All early development will be based on PCB Klicky for consistent mounting pattern. An untested version that connects with standard Klicky magnets has been uploaded. If you test it, please provide feedback.
 
 
 ### Use 6mm x 3mm magnets
