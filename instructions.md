@@ -4,6 +4,7 @@
 
 > [!IMPORTANT]  
 > Klicky-00 is a Loooong probe. It doesn't fit behind the print bed of a standard Voron 2.4 or Trident build without a dock that retracts the probe. See "Bump dock" instructions below.
+> `Should be OK with StealthBurner version as the probe is ~5.5mm shorter`
 
 > [!WARNING]  
 > You need at least 5mm travel on Y past the back of your build plate for this to work.
