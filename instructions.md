@@ -30,12 +30,14 @@ The probe is built from components of other projects. The original concept of th
 | 1   | D2F switch                                | No lever                                                 |
 
 ### Printed Parts
-| Probe Body/Switch (pick 1)                                             | Swingarms (pick 1)                                                        | Rear Body (pick 1)                                    |
-| ---------------------------------------------------------------------- | ------------------------------------------------------------------------- | ----------------------------------------------------- |
-| Unklicky: [Standard](STL/Klicky-00-Probe_Body-Unklicky.stl)            | Xol-Toolhead: [PCB_Klicky](STL/Klicky-00-swingarms-Xol-PCB_Klicky.stl)    | [PCB_Klicky](STL/Klicky-00-Rear_Body-PCB_Klicky.stl)  |
-| D2F: [Standard](STL/Klicky-00-Probe_Body-D2F.stl)                      | Xol-Toolhead: [Standard Klicky](STL/Klicky-00-swingarms-Xol-Klicky.stl)   | [Standard Klicky](STL/Klicky-00-Rear_Body-Klicky.stl) |
-| Unklicky: [Archetype](STL/Klicky-00-Probe_Body-Archetype-Unklicky.stl) | Archetype: [PCB_Klicky](STL/Klicky-00-swingarms-Archetype-PCB_Klicky.stl) |                                                       |
-| D2F: [Archetype](STL/Klicky-00-Probe_Body-Archetype-D2F.stl)           |                                                                           |                                                       |
+| Probe Body/Switch (pick 1)                                             | Swingarms (pick 1)                                                           | Rear Body (pick 1)                                    |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------- |
+| Unklicky: [Standard](STL/Klicky-00-Probe_Body-Unklicky.stl)            | Xol-Toolhead: [PCB_Klicky](STL/Klicky-00-swingarms-Xol-PCB_Klicky.stl)       | [PCB_Klicky](STL/Klicky-00-Rear_Body-PCB_Klicky.stl)  |
+| D2F: [Standard](STL/Klicky-00-Probe_Body-D2F.stl)                      | Xol-Toolhead: [Standard Klicky](STL/Klicky-00-swingarms-Xol-Klicky.stl)      | [Standard Klicky](STL/Klicky-00-Rear_Body-Klicky.stl) |
+| Unklicky: [Archetype](STL/Klicky-00-Probe_Body-Archetype-Unklicky.stl) | Archetype: [PCB_Klicky](STL/Klicky-00-swingarms-Archetype-PCB_Klicky.stl)    |                                                       |
+| D2F: [Archetype](STL/Klicky-00-Probe_Body-Archetype-D2F.stl)           | StealthBurner: [Fits both Klicky types](STL/Klicky-00-swingarms-SB-both.stl) | [StealthBuner Probe Mount (Centered)](STL/Klicky-00_AB-SB_mount_centered.stl)                                                      |
+| Unklicky: [StealthBurner](STL/Klicky-00-Probe_Body-SB-Unklicky.stl)    |                                                                              |                                                       |
+| D2F: [StealthBurner](STL/Klicky-00-Probe_Body-SB-D2F.stl)              |                                                                              |                                                       |
 
 ### Instructions (PCB_Klicky Version)
 | Note                                                                                                                                                                                                                                                                                                                      | Picture                                           |
