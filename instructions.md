@@ -75,7 +75,7 @@ Like the rest of Klicky-00, magnets are used as "springs" because they're magic.
 | 1       | M3 x 30 SHCS      | Height adjustment screw                                               |
 | 2       | M3 Heatset Insert | Standard Voron spec. In the front of the klicky dock hoder            |
 | 2       | 36mm PTFE Tube    | 2mm ID / 4mm OD PTFE Tube: lower hinges                               |
-| 4       | 40mm PTFE Tube    | 2mm ID / 4mm OD PTFE Tube: Middle hinges + Bump slide                 |
+| 3       | 40mm PTFE Tube    | 2mm ID / 4mm OD PTFE Tube: Middle hinges + Bump slide                 |
 | 2       | 30mm PTFE Tube    | 2mm ID / 4mm OD PTFE Tube: Upper hinges                               |
 | 5 or 10 | 6x3mm Magnets     | Depending on how strong the magnets are: the "Springs" for the bumber |
 | 2       | M3x20 SHCS        | Klicky dock to bump dock                                              |
