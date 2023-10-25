@@ -53,8 +53,8 @@ Drift was also very low with bed temp at 118°C, nozzle 200°C and chamber ~57°
 * [Unklicky build guide](https://github.com/majarspeed/Unklicky/blob/main/Build%20Guide.md)
 * [Voron Docs Klicky as Z-endstop](https://docs.vorondesign.com/community/howto/Takuya/Klicky_Probe_AutoZ_Alternative.html)
 
-
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+<br/><br/><br/><br/>
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
