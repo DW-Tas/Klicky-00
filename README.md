@@ -11,8 +11,13 @@ The goal of this probe is to give TAP-like consistency with repeatable Z-offset 
 ![with toolhead](images/PCB_Klicky-00_Xol-Toolhead_assembly.png)
 <br/> <br/>
 ![right profile](images/PCB_Klicky-00_Xol-Toolhead_right.png)
-<br/> <br/>
+<br/> <br/> <br/> <br/>
+> [!NOTE]  
+> You can help support the development of Klicky-00.<br/>
+> Click on the Ko-Fi image below.<br/>
 [![ko-fi](images/kofi_bg_tag_white.png)](https://ko-fi.com/O5O5OCC0K)
+
+<br/> <br/> <br/>
 
 
 > [!WARNING]  
