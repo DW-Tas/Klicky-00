@@ -15,6 +15,7 @@ The goal of this probe is to give TAP-like consistency with repeatable Z-offset 
 > [!NOTE]  
 > You can help support the development of Klicky-00.<br/>
 > Click on the Ko-Fi image below.<br/>
+
 [![ko-fi](images/kofi_bg_tag_white.png)](https://ko-fi.com/O5O5OCC0K)
 
 <br/> <br/> <br/>
