@@ -1,2 +1,2 @@
-# Alpha release
-### No CAD yet
+# Beta release
+### Finally some release candidate CAD 😄
