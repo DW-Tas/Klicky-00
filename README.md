@@ -55,6 +55,9 @@ Drift was also very low with bed temp at 118°C, nozzle 200°C and chamber ~57°
 ![repeatability_test](images/20230415_1609_repeatability_test.png)
 ![drift_test](images/20230415_1609_drift_test.png)
 
+### Credits:
+* ZaMarin - For inspiring the linkage design that unlocked Klicky-00s potential and the continued help behind the scenes. (more soonTM)
+
 
 ### References:
 * [Klicky Klipper macros](https://github.com/jlas1/Klicky-Probe/tree/main/Klipper_macros)
