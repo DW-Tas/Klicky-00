@@ -6,7 +6,7 @@ Building on the amazing work of JosAr ([Klicky Probe](https://github.com/jlas1/K
 
 The goal of this probe is to give TAP-like consistency with repeatable Z-offset even when changing nozzles.
 
-![render](images/PCB_Klicky-00_Xol-Toolhead_render.png)
+![render](images/Klicky-00_RC2_render.png)
 <br/> <br/>
 ![with toolhead](images/PCB_Klicky-00_Xol-Toolhead_assembly.png)
 <br/> <br/>
@@ -21,18 +21,25 @@ The goal of this probe is to give TAP-like consistency with repeatable Z-offset 
 <br/> <br/> <br/>
 
 
-> [!WARNING]  
-> Development is completed first for Xol-Toolhead on Xol-Carriage at this stage <br/>
-> `untested StealthBurner and Archetype versions are now up`
+> [!INFORMATION]
+> Development is completed first for Xol-Toolhead on Xol-Carriage at this stage
+> There are StealthBurner and Archetype versions available that have been confirmed as working by community members`
 
 #### Constraints:
 * Low cost
 * Easy access to required parts
 * Simple add-on to existing ecosystem
 
-### Warning: This is work in progress
+### This is work in progress
 It has been tested on Xol-Toolhead and is giving good results. All early development will be based on PCB Klicky for consistent mounting pattern. An untested version that connects with standard Klicky magnets has been uploaded. If you test it, please provide feedback.
 
+#### RC2 - 05/05/2024
+RC2 release
+* Changed swingarm hinge screws to M3 (no more M2.5 screws needed)
+* Increased strength around hinge points
+* Moved D2F switch location to properly match 0,0 concept
+* `New Switch Type` `Beta` Buckshot switch by ZaMarin <br/><br/>
+  ![buckshot switch](images/buckshot_switch.png)
 
 ### Use 6mm x 3mm magnets
 I have designed this around 6x3mm magnets and it will probably fail with the 6x2.7mm magnets that are also common. A mix of N52 and N35 magnets are most likely needed to help "tune" attraction and spring forces.
