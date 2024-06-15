@@ -33,6 +33,10 @@ The goal of this probe is to give TAP-like consistency with repeatable Z-offset 
 ### This is work in progress
 It has been tested on Xol-Toolhead and is giving good results. All early development will be based on PCB Klicky for consistent mounting pattern. An untested version that connects with standard Klicky magnets has been uploaded. If you test it, please provide feedback.
 
+Discussion and development on the Armchair discord<br/>
+[![Join us on Discord](https://discord.com/api/guilds/1029426383614648421/widget.png?style=banner2)](https://discord.gg/armchairengineeringsux)<br/>
+[Klicky-00 thread](https://discord.com/channels/1029426383614648421/1101496347540082799)
+
 #### RC2 - 05/05/2024
 RC2 release
 * Changed swingarm hinge screws to M3 (no more M2.5 screws needed)
