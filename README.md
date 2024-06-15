@@ -21,9 +21,10 @@ The goal of this probe is to give TAP-like consistency with repeatable Z-offset 
 <br/> <br/> <br/>
 
 
-> [!INFORMATION]
+> [!NOTE] 
 > Development is completed first for Xol-Toolhead on Xol-Carriage at this stage
 > There are StealthBurner and Archetype versions available that have been confirmed as working by community members`
+
 
 #### Constraints:
 * Low cost
