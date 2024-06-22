@@ -26,9 +26,8 @@ The first two tables are specific to the mount type you use. The third table has
 
 `[Assumes you already have the PCB Klicky upper mount on your toolhead]`
 
-
 | Qty | Item                   | Note                                                                                                    |
-| ----- | ------------------------ | --------------------------------------------------------------------------------------------------------- |
+| --- | ---------------------- | ------------------------------------------------------------------------------------------------------- |
 | 1   | PCB Klicky Lower kit   | Lower PCB with switch removed, magnets, screws and heatset inserts that came with the kit or equivalent |
 | 5   | 6x3mm Disc Magnets     | Probably a mix of N52 and N35 strength for adjustability                                                |
 | 4   | M3 x 20mm BHCS or SCHS | Swing arm hinges                                                                                        |
@@ -38,24 +37,22 @@ The first two tables are specific to the mount type you use. The third table has
 
 `[Assumes you already have the Klicky mount on your toolhead]`
 
-
 | Qty | Item                   | Note                                                     |
-| ----- | ------------------------ | ---------------------------------------------------------- |
+| --- | ---------------------- | -------------------------------------------------------- |
 | 8   | 6x3mm Disc Magnets     | Probably a mix of N52 and N35 strength for adjustability |
 | 4   | M3 x 20mm BHCS or SCHS | Swing arm hinges                                         |
 | 2   | Lengths of wire        | Less than 2mm sheathing diameter, approx 100mm           |
 
 ### Extra parts by switch type
 
-
-| Switch Type    | Qty | Item                                      | Note                                     |
-| :--------------- | ----- | ------------------------------------------- | ------------------------------------------ |
-| Unklicky       | 1   | M3 x 12mm SHCS                            | Unklicky probe stylus retention screw    |
-| D2F            | 1   | D2F switch                                | No lever                                 |
-| D2F            | 2   | M2 x 10mm self tapping countersunk screws |                                          |
-| Buckshot`Beta` | 3   | M3 x 6 Wafer head screw                   | 6mm head diameter                        |
-| Buckshot`Beta` | 1   | 5.5m Ball Bearing                         | not a roller bearing                     |
-| Buckshot`Beta` | 1   | 4mm OD x ~10mm long  Spring               | Cut down to length from cheap clicky pen |
+| Switch Type       | Qty | Item                                      | Note                                     |
+| :---------------- | --- | ----------------------------------------- | ---------------------------------------- |
+| Unklicky          | 1   | M3 x 12mm SHCS                            | Unklicky probe stylus retention screw    |
+| D2F               | 1   | D2F switch                                | No lever                                 |
+| D2F               | 2   | M2 x 10mm self tapping countersunk screws |                                          |
+| Buckshot `Beta` | 3   | M3 x 6 Wafer head screw                   | 6mm head diameter                        |
+| Buckshot `Beta` | 1   | 5.5m Ball Bearing                         | not a roller bearing                     |
+| Buckshot `Beta` | 1   | 4mm OD x ~10mm long  Spring               | Cut down to length from cheap clicky pen |
 
 ## Printed Parts
 
@@ -63,11 +60,10 @@ The tables below provide links for all the parts you will need. Pick one probe a
 
 ### Probe Attachment (pick one)
 
-
-| Attachment Type | STL Links                                                                                                                               |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| Klicky PCB      | [Klicky-00_PCB_Klicky_Rear.stl](STL/Klicky-00_PCB_Klicky_Rear.stl)                                                                      |
-| Klicky Standard | [Klicky-00_Klicky_Rear.stl](STL/Klicky-00_Klicky_Rear.stl) `` *[StealthBuner Probe Mount (Centered)](STL/Klicky-00_Klicky_Mount_SB.stl) |
+| Attachment Type | STL Links                                                                                                                                |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Klicky PCB      | [Klicky-00_PCB_Klicky_Rear.stl](STL/Klicky-00_PCB_Klicky_Rear.stl)                                                                          |
+| Klicky Standard | [Klicky-00_Klicky_Rear.stl](STL/Klicky-00_Klicky_Rear.stl) <br/> *[StealthBuner Probe Mount (Centered)](STL/Klicky-00_Klicky_Mount_SB.stl) |
 
 Pick the parts for your toolhead from one of the tables below
 
@@ -75,54 +71,49 @@ Pick the parts for your toolhead from one of the tables below
 
 #### Switches
 
-
-| Part                 | STL Links                                                                               |
-| ---------------------- | ----------------------------------------------------------------------------------------- |
-| Unklicky Front       | [Klicky-00_Xol_Unklicky_Front.stl](STL/Klicky-00_Xol_Unklicky_Front.stl)                |
-| D2F Front            | [Klicky-00_Xol_D2F_Front.stl](STL/Klicky-00_Xol_D2F_Front.stl)                          |
-| Buckshot Front`Beta` | [Klicky-00_Xol_Buckshot_Front.stl](STL/buckshot[beta]/Klicky-00_Xol_Buckshot_Front.stl) |
+| Part                    | STL Links                                                                            |
+| ----------------------- | ------------------------------------------------------------------------------------ |
+| Unklicky Front          | [Klicky-00_Xol_Unklicky_Front.stl](STL/Klicky-00_Xol_Unklicky_Front.stl)                |
+| D2F Front               | [Klicky-00_Xol_D2F_Front.stl](STL/Klicky-00_Xol_D2F_Front.stl)                          |
+| Buckshot Front `Beta` | [Klicky-00_Xol_Buckshot_Front.stl](STL/buckshot[beta]/Klicky-00_Xol_Buckshot_Front.stl) |
 
 #### Swingarms
 
-
 | Switch Type                             | One-peice Xol Carriage (2024-06 release)                                                                                                                                                                | Two-piece Xol Carriage                                                                                                                                                                                                                                                              |
-| ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| PCB Klicky Swingarms                    | [Xol_PCB_Swingarm_Upper](STL/Klicky-00_Xol_PCB_Swingarm_Upper.stl) [Xol_PCB_Swingarm_Lower](STL/Klicky-00_Xol_PCB_Swingarm_Lower.stl)                                                                   | [Xol_PCB_Swingarm_Upper[two-part_carriage]](STL/Klicky-00_Xol_PCB_Swingarm_Upper[two-part_carriage].stl) [Xol_PCB_Swingarm_Lower[two-part_carriage]](STL/Klicky-00_Xol_PCB_Swingarm_Lower[two-part_carriage].stl)                                                                   |
-| Standard Klicky Swingarms               | [Xol_Swingarm_Upper](STL/Klicky-00_Xol_Swingarm_Upper.stl) [Xol_Swingarm_Lower](STL/Klicky-00_Xol_Swingarm_Lower.stl)                                                                                   | [Xol_Swingarm_Upper[two-part_carriage]](STL/Klicky-00_Xol_Swingarm_Upper[two-part_carriage].stl) [Xol_Swingarm_Lower[two-part_carriage]](STL/Klicky-00_Xol_Swingarm_Lower[two-part_carriage].stl)                                                                                   |
-| Buckshot PCB Klicky Swingarms Beta      | [Xol_PCB_Swingarm_Upper_Buckshot](STL/buckshot[beta]/Klicky-00_Xol_PCB_Swingarm_Upper_Buckshot.stl) [Xol_PCB_Swingarm_Lower_Buckshot](STL/buckshot[beta]/Klicky-00_Xol_PCB_Swingarm_Lower_Buckshot.stl) | [Xol_PCB_Swingarm_Upper_Buckshot[two-part_carriage]](STL/buckshot[beta]/Klicky-00_Xol_PCB_Swingarm_Upper_Buckshot[two-part_carriage].stl) [Xol_PCB_Swingarm_Lower_Buckshot[two-part_carriage]](STL/buckshot[beta]/Klicky-00_Xol_PCB_Swingarm_Lower_Buckshot[two-part_carriage].stl) |
-| Buckshot Standard Klicky Swingarms Beta | [Xol_Swingarm_Upper_Buckshot](STL/buckshot[beta]/Klicky-00_Xol_Swingarm_Upper_Buckshot.stl) [Xol_Swingarm_Lower_Buckshot](STL/buckshot[beta]/Klicky-00_Xol_Swingarm_Lower_Buckshot.stl)                 | [Xol_Swingarm_Upper_Buckshot[two-part_carriage]](STL/buckshot[beta]/Klicky-00_Xol_Swingarm_Upper_Buckshot[two-part_carriage].stl) [Xol_Swingarm_Lower_Buckshot[two-part_carriage]](STL/buckshot[beta]/Klicky-00_Xol_Swingarm_Lower_Buckshot[two-part_carriage].stl)                 |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| PCB Klicky Swingarms                    | [Xol_PCB_Swingarm_Upper](STL/Klicky-00_Xol_PCB_Swingarm_Upper.stl)<br/> [Xol_PCB_Swingarm_Lower](STL/Klicky-00_Xol_PCB_Swingarm_Lower.stl)                                                                   | [Xol_PCB_Swingarm_Upper[two-part_carriage]](STL/Klicky-00_Xol_PCB_Swingarm_Upper[two-part_carriage].stl)<br/>[Xol_PCB_Swingarm_Lower[two-part_carriage]](STL/Klicky-00_Xol_PCB_Swingarm_Lower[two-part_carriage].stl)                                                                    |
+| Standard Klicky Swingarms               | [Xol_Swingarm_Upper](STL/Klicky-00_Xol_Swingarm_Upper.stl) <br/>[Xol_Swingarm_Lower](STL/Klicky-00_Xol_Swingarm_Lower.stl)                                                                                   | [Xol_Swingarm_Upper[two-part_carriage]](STL/Klicky-00_Xol_Swingarm_Upper[two-part_carriage].stl)<br/> [Xol_Swingarm_Lower[two-part_carriage]](STL/Klicky-00_Xol_Swingarm_Lower[two-part_carriage].stl)                                                                                   |
+| Buckshot PCB Klicky Swingarms Beta      | [Xol_PCB_Swingarm_Upper_Buckshot](STL/buckshot[beta]/Klicky-00_Xol_PCB_Swingarm_Upper_Buckshot.stl)<br/> [Xol_PCB_Swingarm_Lower_Buckshot](STL/buckshot[beta]/Klicky-00_Xol_PCB_Swingarm_Lower_Buckshot.stl) | [Xol_PCB_Swingarm_Upper_Buckshot[two-part_carriage]](STL/buckshot[beta]/Klicky-00_Xol_PCB_Swingarm_Upper_Buckshot[two-part_carriage].stl)<br/> [Xol_PCB_Swingarm_Lower_Buckshot[two-part_carriage]](STL/buckshot[beta]/Klicky-00_Xol_PCB_Swingarm_Lower_Buckshot[two-part_carriage].stl) |
+| Buckshot Standard Klicky Swingarms Beta | [Xol_Swingarm_Upper_Buckshot](STL/buckshot[beta]/Klicky-00_Xol_Swingarm_Upper_Buckshot.stl)<br/> [Xol_Swingarm_Lower_Buckshot](STL/buckshot[beta]/Klicky-00_Xol_Swingarm_Lower_Buckshot.stl)                 | [Xol_Swingarm_Upper_Buckshot[two-part_carriage]](STL/buckshot[beta]/Klicky-00_Xol_Swingarm_Upper_Buckshot[two-part_carriage].stl)<br/> [Xol_Swingarm_Lower_Buckshot[two-part_carriage]](STL/buckshot[beta]/Klicky-00_Xol_Swingarm_Lower_Buckshot[two-part_carriage].stl)                 |
 
 ### Archetype Toolhead probe parts
 
-
-| Part                     | STL Links                                                                                                                                                                                                          |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Unklicky Front           | [Klicky-00_Archetype_Unklicky_Front.stl](STL/Klicky-00_Archetype_Unklicky_Front.stl)                                                                                                                               |
-| D2F Front                | [Klicky-00_Archetype_D2F_Front.stl](STL/Klicky-00_Archetype_D2F_Front.stl)                                                                                                                                         |
-| Swingarms                | [Archetype_Swingarm_Upper](STL/Klicky-00_Archetype_Swingarm_Upper.stl) `` [Archetype_Swingarm_Lower](STL/Klicky-00_Archetype_Swingarm_Lower.stl)                                                                   |
-| Buckshot Front`Beta`     | [Klicky-00_Archetype_Buckshot_Front.stl](STL/buckshot[beta]/Klicky-00_Archetype_Buckshot_Front.stl)                                                                                                                |
-| Buckshot Swingarms`Beta` | [Archetype_Swingarm_Upper_Buckshot](STL/buckshot[beta]/Klicky-00_Archetype_Swingarm_Upper_Buckshot.stl) `` [Archetype_Swingarm_Lower_Buckshot](STL/buckshot[beta]/Klicky-00_Archetype_Swingarm_Lower_Buckshot.stl) |
+| Part                        | STL Links                                                                                                                                                                                                    |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Unklicky Front              | [Klicky-00_Archetype_Unklicky_Front.stl](STL/Klicky-00_Archetype_Unklicky_Front.stl)                                                                                                                            |
+| D2F Front                   | [Klicky-00_Archetype_D2F_Front.stl](STL/Klicky-00_Archetype_D2F_Front.stl)                                                                                                                                      |
+| Swingarms                   | [Archetype_Swingarm_Upper](STL/Klicky-00_Archetype_Swingarm_Upper.stl) <br/> [Archetype_Swingarm_Lower](STL/Klicky-00_Archetype_Swingarm_Lower.stl)                                                                   |
+| Buckshot Front `Beta`     | [Klicky-00_Archetype_Buckshot_Front.stl](STL/buckshot[beta]/Klicky-00_Archetype_Buckshot_Front.stl)                                                                                                             |
+| Buckshot Swingarms `Beta` | [Archetype_Swingarm_Upper_Buckshot](STL/buckshot[beta]/Klicky-00_Archetype_Swingarm_Upper_Buckshot.stl) <br/> [Archetype_Swingarm_Lower_Buckshot](STL/buckshot[beta]/Klicky-00_Archetype_Swingarm_Lower_Buckshot.stl) |
 
 ### StealthBurner Toolhead probe parts
 
-
-| Part                                        | STL Links                                                                                                            |
-| --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| Unklicky Front                              | [Klicky-00_SB_Unklicky_Front.stl](STL/Klicky-00_SB_Unklicky_Front.stl)                                               |
-| D2F Front                                   | [Klicky-00_SB_D2F_Front.stl](STL/Klicky-00_SB_D2F_Front.stl)                                                         |
-| Swingarms (work with Buckshot Beta as well) | [SB_Swingarm_Upper](STL/Klicky-00_SB_Swingarm_Upper.stl) `` [SB_Swingarm_Lower](STL/Klicky-00_SB_Swingarm_Lower.stl) |
-| Buckshot Front`Beta`                        | [Klicky-00_SB_Buckshot_Front.stl](STL/buckshot[beta]/Klicky-00_SB_Buckshot_Front.stl)                                |
+| Part                                        | STL Links                                                                                                      |
+| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| Unklicky Front                              | [Klicky-00_SB_Unklicky_Front.stl](STL/Klicky-00_SB_Unklicky_Front.stl)                                            |
+| D2F Front                                   | [Klicky-00_SB_D2F_Front.stl](STL/Klicky-00_SB_D2F_Front.stl)                                                      |
+| Swingarms (work with Buckshot Beta as well) | [SB_Swingarm_Upper](STL/Klicky-00_SB_Swingarm_Upper.stl) <br/> [SB_Swingarm_Lower](STL/Klicky-00_SB_Swingarm_Lower.stl) |
+| Buckshot Front `Beta`                     | [Klicky-00_SB_Buckshot_Front.stl](STL/buckshot[beta]/Klicky-00_SB_Buckshot_Front.stl)                             |
 
 ## Instructions (PCB_Klicky Version with Unklcy switch)
 
-
-| Note                                                                                                                                                                                                                                                                                                                      | Picture                                           |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| Note                                                                                                                                                                                                                                                                                                                      | Picture                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
 | Remove the built in support                                                                                                                                                                                                                                                                                               | ![Alt text](images/probe_remove_support.png)      |
 | Install the M2 heatset inserts                                                                                                                                                                                                                                                                                            | ![Alt text](images/probe_install_heatsets.png)    |
-| If an M3 screw placed through the swing arms doesn't move freely with low friction, drill out the swing arm holes with M3 drill bit.```Don't over do it! If the screws have too much room the probe will end up wobbly and not be as accurate.`                                                                           | ![Alt text](images/probe_drill_arms.png)          |
-| Prepare the probe stylus. Sand it down so it moves smoothly inside the probe front body`Unklicky Version`                                                                                                                                                                                                                 | ![Alt text](images/probe_prepare_stylus.png)      |
-| Install the stylus as per UnKlickyBFP. Wire wraps around top of stylus, Magnets are opposing```*TIP: Make sure that the top magnet repells the furthest back magnet on the toolhead. This will make sure that Klicky-00 is pushed down as the toolhead moves over it to attach the probe.`                                | ![Alt text](images/probe_install_stylus.png)      |
+| If an M3 screw placed through the swing arms doesn't move freely with low friction, drill out the swing arm holes with M3 drill bit.<br/>`Don't over do it! If the screws have too much room the probe will end up wobbly and not be as accurate.`                                                                           | ![Alt text](images/probe_drill_arms.png)          |
+| Prepare the probe stylus. Sand it down so it moves smoothly inside the probe front body `Unklicky Version`                                                                                                                                                                                                              | ![Alt text](images/probe_prepare_stylus.png)      |
+| Install the stylus as per UnKlickyBFP. Wire wraps around top of stylus, Magnets are opposing<br/>`*TIP: Make sure that the top magnet repells the furthest back magnet on the toolhead. This will make sure that Klicky-00 is pushed down as the toolhead moves over it to attach the probe.`                                | ![Alt text](images/probe_install_stylus.png)      |
 | Put the screw in most of the way. Leave room for the second wire to wrap around                                                                                                                                                                                                                                           | ![Alt text](images/probe_install_stylus2.png)     |
 | Put the left side wire in place, wrapped around the screw and tighten the screw                                                                                                                                                                                                                                           | ![Alt text](images/probe_wire_left.png)           |
 | Install the front two swing arm screw hinges                                                                                                                                                                                                                                                                              | ![Alt text](images/probe_attach_arms1.png)        |
@@ -145,9 +136,8 @@ Like the rest of Klicky-00, magnets are used as "springs" because they're magic.
 
 ## BOM
 
-
 | Qty     | Item              | Note                                                                  |
-| --------- | ------------------- | ----------------------------------------------------------------------- |
+| ------- | ----------------- | --------------------------------------------------------------------- |
 | 2       | M5 x 16 BHCS      | Attaching to gantry                                                   |
 | 2       | M5 T-Nuts         | Attaching to gantry                                                   |
 | 1       | M3 Heatset Insert | Standard Voron spec. In the height adjuster-a-thingy                  |
@@ -162,13 +152,12 @@ Like the rest of Klicky-00, magnets are used as "springs" because they're magic.
 
 ## Instructions
 
-
-| Note                                                                                                                                                                                                                                                                                                      | Picture                                                                                               |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| Install heatset inserts:`` * Lower arm and height adjuster                                                                                                                                                                                                                                                | ![Alt text](images/bump_dock_heatsets.png)   ``  ![Alt text](images/bump_dock_height_adj_heatset.png) |
-| Put the dock arms together with the PTFE tube in the upper and lower hinges. Don't forget the other PTFE tube on the front of the bumper!                                                                                                                                                                 | ![Alt text](images/bump_dock_assemble_arms.png)                                                       |
-| Slide the arms into place in the body and put the two middle hinge PTFE tubes in place                                                                                                                                                                                                                    | ![Alt text](images/bump_dock_assemble_dock.png)                                                       |
-| Thread the height adjustment screw into the height adjuster and clip it into place                                                                                                                                                                                                                        | ![Alt text](images/bump_dock_height_adj.png)                                                          |
-| Attach the Klicky dock to the bump dock. Don't forget the magnet and it's polarity if you have existing probes                                                                                                                                                                                            | ![Alt text](images/bump_dock_klicky-dock.png)                                                         |
-| Install Magnets to be the "springs" and "latch"`` Depending on how strong your magnets are, and how well everything moves, you may only need these magnets on one side. The top three magnets are setup to push the upper arm forward and the lower two magnets attract to pull the lower part backwards. | ![Alt text](images/bump_dock_springs.png)                                                             |
-| Time to install it into the printer.                                                                                                                                                                                                                                                                      | ![Alt text](images/bump_dock_into_printer.png)                                                        |
+| Note                                                                                                                                                                                                                                                                                                      | Picture                                                                                           |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Install heatset inserts:<br/> * Lower arm and height adjuster                                                                                                                                                                                                                                                | ![Alt text](images/bump_dock_heatsets.png)   <br/>  ![Alt text](images/bump_dock_height_adj_heatset.png) |
+| Put the dock arms together with the PTFE tube in the upper and lower hinges. Don't forget the other PTFE tube on the front of the bumper!                                                                                                                                                                 | ![Alt text](images/bump_dock_assemble_arms.png)                                                     |
+| Slide the arms into place in the body and put the two middle hinge PTFE tubes in place                                                                                                                                                                                                                    | ![Alt text](images/bump_dock_assemble_dock.png)                                                     |
+| Thread the height adjustment screw into the height adjuster and clip it into place                                                                                                                                                                                                                        | ![Alt text](images/bump_dock_height_adj.png)                                                        |
+| Attach the Klicky dock to the bump dock. Don't forget the magnet and it's polarity if you have existing probes                                                                                                                                                                                            | ![Alt text](images/bump_dock_klicky-dock.png)                                                       |
+| Install Magnets to be the "springs" and "latch"<br/> Depending on how strong your magnets are, and how well everything moves, you may only need these magnets on one side. The top three magnets are setup to push the upper arm forward and the lower two magnets attract to pull the lower part backwards. | ![Alt text](images/bump_dock_springs.png)                                                           |
+| Time to install it into the printer.                                                                                                                                                                                                                                                                      | ![Alt text](images/bump_dock_into_printer.png)                                                      |
