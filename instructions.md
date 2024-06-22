@@ -2,12 +2,19 @@
 > [!WARNING]  
 > You need to have a good understanding of Klicky (+macro settings), probes, offsets and Klipper.
 
+It is highly recommended to have a working PCB Klicky or standard Klicky already installed on your toolhead and configured. Follow the instructions from Josar on the Klicky-Probe Github:
+[klipper configuration](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident#step-5-klipper-configuration)<br/>
+Make sure to include the steps for [Klicky Probe as Endstop with constant Z-Offset](https://github.com/T4KUUY4/Voron-Stuff/tree/main/KlickyProbeZoffset).
+
+
 > [!IMPORTANT]  
 > Klicky-00 is a Loooong probe. It doesn't fit behind the print bed of a standard Voron 2.4 or Trident build without a dock that retracts the probe. See "Bump dock" instructions below.
 > `Should be OK with StealthBurner version as the probe is ~5.5mm shorter`
 
+
 > [!WARNING]  
 > You need at least 5mm travel on Y past the back of your build plate for this to work.
+
 
 ## Klicky-00 Probe
 The probe is built from components of other projects. The original concept of this project is putting the probe under the nozzle in a repeatable/automatable way.
@@ -87,7 +94,7 @@ Pick the parts for your toolhead from one of the tables below
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
 | Remove the built in support                                                                                                                                                                                                                                                                                               | ![Alt text](images/probe_remove_support.png)      |
 | Install the M2 heatset inserts                                                                                                                                                                                                                                                                                            | ![Alt text](images/probe_install_heatsets.png)    |
-| If an M3 screw placed through the swing arms doesn't move freely with low friction, drill out the swing arm holes with M3 drill bit.                                                                                                                                                                                      | ![Alt text](images/probe_drill_arms.png)          |
+| If an M3 screw placed through the swing arms doesn't move freely with low friction, drill out the swing arm holes with M3 drill bit. <br/> `Don't over do it! If the screws have too much room the probe will end up wobbly and not be as accurate.`                                                                                                                                                                                     | ![Alt text](images/probe_drill_arms.png)          |
 | Prepare the probe stylus. Sand it down so it moves smoothly inside the probe front body `Unklicky Version`                                                                                                                                                                                                                | ![Alt text](images/probe_prepare_stylus.png)      |
 | Install the stylus as per UnKlickyBFP. Wire wraps around top of stylus, Magnets are opposing <br/> `*TIP: Make sure that the top magnet repells the furthest back magnet on the toolhead. This will make sure that Klicky-00 is pushed down as the toolhead moves over it to attach the probe.`                           | ![Alt text](images/probe_install_stylus.png)      |
 | Put the screw in most of the way. Leave room for the second wire to wrap around                                                                                                                                                                                                                                           | ![Alt text](images/probe_install_stylus2.png)     |

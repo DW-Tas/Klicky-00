@@ -1,10 +1,10 @@
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-# Klicky-00: Zero X,Y offset probe (WIP)
+# Klicky-00: Zero X,Y offset probe (RC2)
 
 Building on the amazing work of JosAr ([Klicky Probe](https://github.com/jlas1/Klicky-Probe)), whoppingpochard ([PCB Klicky](https://github.com/tanaes/whopping_Voron_mods/tree/main/pcb_klicky)), and Majarspeed ([Unklicky](https://github.com/majarspeed/Unklicky)) this mod moves the probe directly under the nozzle (X,Y 0,0) and also has the nozzle touching the probe so that you can reliably use it as your z endstop with consistent z-offset. All the usual caveats about clean nozzles during probing apply here too.
 
-The goal of this probe is to give TAP-like consistency with repeatable Z-offset even when changing nozzles.
+The goal of this probe is to give accurate, nozzle probe-like, repeatable Z-offset on a budget even when changing nozzles.
 
 ![render](images/Klicky-00_RC2_render.png)
 <br/> <br/>
@@ -21,22 +21,18 @@ The goal of this probe is to give TAP-like consistency with repeatable Z-offset 
 <br/> <br/> <br/>
 
 
-> [!NOTE] 
-> Development is completed first for Xol-Toolhead on Xol-Carriage at this stage
-> There are StealthBurner and Archetype versions available that have been confirmed as working by community members`
-
-
 #### Constraints:
 * Low cost
 * Easy access to required parts
-* Simple add-on to existing ecosystem
+* Simple add-on to existing ecosystems
 
-### This is work in progress
-It has been tested on Xol-Toolhead and is giving good results. All early development will be based on PCB Klicky for consistent mounting pattern. An untested version that connects with standard Klicky magnets has been uploaded. If you test it, please provide feedback.
+### Currently in "release candidate (RC)" status
+Versions have been community tested on Xol Toolhead, Archetype and Stealthburner. Many gremlins have been worked out already, but things are still being found as more and more people join the fun of Klicky-00.
 
-Discussion and development on the Armchair discord<br/>
+### Discussion and development on the Armchair discord
+
 [![Join us on Discord](https://discord.com/api/guilds/1029426383614648421/widget.png?style=banner2)](https://discord.gg/armchairengineeringsux)<br/>
-[Klicky-00 thread](https://discord.com/channels/1029426383614648421/1101496347540082799)
+Find the [Klicky-00 thread](https://discord.com/channels/1029426383614648421/1101496347540082799) under "user-projects"
 
 #### RC2 - 05/05/2024
 RC2 release
@@ -68,7 +64,7 @@ Drift was also very low with bed temp at 118°C, nozzle 200°C and chamber ~57°
 ![drift_test](images/20230415_1609_drift_test.png)
 
 ### Credits:
-* ZaMarin - For inspiring the linkage design that unlocked Klicky-00s potential and the continued help behind the scenes. (more soonTM)
+* ZaMarin - For the Buckshot switch mechanism, and inspiring the linkage design that unlocked Klicky-00s potential and the continued help behind the scenes.
 
 
 ### References:
