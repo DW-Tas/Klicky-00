@@ -8,9 +8,7 @@ The goal of this probe is to give accurate, nozzle probe-like, repeatable Z-offs
 
 ![render](images/Klicky-00_RC2_render.png)
 <br/> <br/>
-![with toolhead](images/PCB_Klicky-00_Xol-Toolhead_assembly.png)
-<br/> <br/>
-![right profile](images/PCB_Klicky-00_Xol-Toolhead_right.png)
+![alt text](images/Klicky-00.6.png)
 <br/> <br/> <br/> <br/>
 > [!NOTE]  
 > You can help support the development of Klicky-00.<br/>
@@ -35,13 +33,12 @@ Versions have been community tested on Xol Toolhead, Archetype and Stealthburner
 Find the [Klicky-00 thread](https://discord.com/channels/1029426383614648421/1101496347540082799) under "user-projects"
 
 #### RC3 - 01/01/2025
-RC release
+![Buckshot transparent](images/Klicky-00.9.png)
 * Swingarm fixes for better location of probe under nozzle
 * Changed Buckshot switches to use FHCS screws
 * CAD fixes
 
 #### RC2 - 05/05/2024
-RC release
 * Changed swingarm hinge screws to M3 (no more M2.5 screws needed)
 * Increased strength around hinge points
 * Moved D2F switch location to properly match 0,0 concept
