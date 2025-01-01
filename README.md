@@ -1,6 +1,6 @@
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-# Klicky-00: Zero X,Y offset probe (RC2)
+# Klicky-00: Zero X,Y offset probe (RC3)
 
 Building on the amazing work of JosAr ([Klicky Probe](https://github.com/jlas1/Klicky-Probe)), whoppingpochard ([PCB Klicky](https://github.com/tanaes/whopping_Voron_mods/tree/main/pcb_klicky)), and Majarspeed ([Unklicky](https://github.com/majarspeed/Unklicky)) this mod moves the probe directly under the nozzle (X,Y 0,0) and also has the nozzle touching the probe so that you can reliably use it as your z endstop with consistent z-offset. All the usual caveats about clean nozzles during probing apply here too.
 
@@ -34,8 +34,14 @@ Versions have been community tested on Xol Toolhead, Archetype and Stealthburner
 [![Join us on Discord](https://discord.com/api/guilds/1029426383614648421/widget.png?style=banner2)](https://discord.gg/armchairengineeringsux)<br/>
 Find the [Klicky-00 thread](https://discord.com/channels/1029426383614648421/1101496347540082799) under "user-projects"
 
+#### RC3 - 01/01/2025
+RC release
+* Swingarm fixes for better location of probe under nozzle
+* Changed Buckshot switches to use FHCS screws
+* CAD fixes
+
 #### RC2 - 05/05/2024
-RC2 release
+RC release
 * Changed swingarm hinge screws to M3 (no more M2.5 screws needed)
 * Increased strength around hinge points
 * Moved D2F switch location to properly match 0,0 concept

@@ -30,7 +30,7 @@ The first two tables are specific to the mount type you use. The third table has
 | --- | ---------------------- | ------------------------------------------------------------------------------------------------------- |
 | 1   | PCB Klicky Lower kit   | Lower PCB with switch removed, magnets, screws and heatset inserts that came with the kit or equivalent |
 | 5   | 6x3mm Disc Magnets     | Probably a mix of N52 and N35 strength for adjustability                                                |
-| 4   | M3 x 20mm BHCS or SCHS | Swing arm hinges                                                                                        |
+| 4   | M3 x 20mm SHCS or BHCS | Swing arm hinges                                                                                        |
 | 2   | Lengths of wire        | Less than 2mm sheathing diameter, approx 100mm                                                          |
 
 ### Standard Klicky Version (needed for all switch types)
@@ -40,73 +40,49 @@ The first two tables are specific to the mount type you use. The third table has
 | Qty | Item                   | Note                                                     |
 | --- | ---------------------- | -------------------------------------------------------- |
 | 8   | 6x3mm Disc Magnets     | Probably a mix of N52 and N35 strength for adjustability |
-| 4   | M3 x 20mm BHCS or SCHS | Swing arm hinges                                         |
+| 4   | M3 x 20mm SHCS or BHCS | Swing arm hinges                                         |
 | 2   | Lengths of wire        | Less than 2mm sheathing diameter, approx 100mm           |
 
 ### Extra parts by switch type
 
-| Switch Type       | Qty | Item                                      | Note                                     |
-| :---------------- | --- | ----------------------------------------- | ---------------------------------------- |
-| Unklicky          | 1   | M3 x 12mm SHCS                            | Unklicky probe stylus retention screw    |
-| D2F               | 1   | D2F switch                                | No lever                                 |
-| D2F               | 2   | M2 x 10mm self tapping countersunk screws |                                          |
-| Buckshot `Beta` | 3   | M3 x 6 Wafer head screw                   | 6mm head diameter                        |
-| Buckshot `Beta` | 1   | 5.5m Ball Bearing                         | not a roller bearing                     |
-| Buckshot `Beta` | 1   | 4mm OD x ~10mm long  Spring               | Cut down to length from cheap clicky pen |
+| Switch Type | Qty | Item                                                                             | Note                                                                                       |
+| :---------- | --- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Buckshot    | 3   | M3 x 8 FHCS `M3 x 6 FHCS will work`                                              | Brass version from Ali Express (https://www.aliexpress.com/item/1005004957093547.html)     |
+| Buckshot    | 1   | 5.5m Ball Bearing                                                                | Known good source from Ali Express (https://www.aliexpress.com/item/1005005046697375.html) |
+| Buckshot    | 1   | Spring: <br/>* Length: 10mm<br/>* Wire Diameter: 0.4mm<br/>* Outer Diameter: 4mm | Known good source from Ali Express (https://www.aliexpress.com/item/1005007100755870.html) |
+| Unklicky    | 1   | M3 x 12mm SHCS                                                                   | Unklicky probe stylus retention screw                                                      |
+| D2F         | 1   | D2F switch                                                                       | No lever                                                                                   |
+| D2F         | 2   | M2 x 10mm self tapping countersunk screws                                        |                                                                                            |
 
 ## Printed Parts
+Pick your toolhead, switch type and mount type from the tables below to find the correct file to print
 
-The tables below provide links for all the parts you will need. Pick one probe attachment type, then front parts and swing arms from the toolhead specific tables below
-
-### Probe Attachment (pick one)
-
-| Attachment Type | STL Links                                                                                                                                |
-| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Klicky PCB      | [Klicky-00_PCB_Klicky_Rear.stl](STL/Klicky-00_PCB_Klicky_Rear.stl)                                                                          |
-| Klicky Standard | [Klicky-00_Klicky_Rear.stl](STL/Klicky-00_Klicky_Rear.stl) <br/> *[StealthBuner Probe Mount (Centered)](STL/Klicky-00_Klicky_Mount_SB.stl) |
-
-Pick the parts for your toolhead from one of the tables below
-
-### Xol Toolhead probe parts
-
-#### Switches
-
-| Part                    | STL Links                                                                            |
-| ----------------------- | ------------------------------------------------------------------------------------ |
-| Unklicky Front          | [Klicky-00_Xol_Unklicky_Front.stl](STL/Klicky-00_Xol_Unklicky_Front.stl)                |
-| D2F Front               | [Klicky-00_Xol_D2F_Front.stl](STL/Klicky-00_Xol_D2F_Front.stl)                          |
-| Buckshot Front `Beta` | [Klicky-00_Xol_Buckshot_Front.stl](STL/buckshot[beta]/Klicky-00_Xol_Buckshot_Front.stl) |
-
-#### Swingarms
-
-| Switch Type                             | One-peice Xol Carriage (2024-06 release)                                                                                                                                                                | Two-piece Xol Carriage                                                                                                                                                                                                                                                              |
-| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| PCB Klicky Swingarms                    | [Xol_PCB_Swingarm_Upper](STL/Klicky-00_Xol_PCB_Swingarm_Upper.stl)<br/> [Xol_PCB_Swingarm_Lower](STL/Klicky-00_Xol_PCB_Swingarm_Lower.stl)                                                                   | [Xol_PCB_Swingarm_Upper[two-part_carriage]](STL/Klicky-00_Xol_PCB_Swingarm_Upper[two-part_carriage].stl)<br/>[Xol_PCB_Swingarm_Lower[two-part_carriage]](STL/Klicky-00_Xol_PCB_Swingarm_Lower[two-part_carriage].stl)                                                                    |
-| Standard Klicky Swingarms               | [Xol_Swingarm_Upper](STL/Klicky-00_Xol_Swingarm_Upper.stl) <br/>[Xol_Swingarm_Lower](STL/Klicky-00_Xol_Swingarm_Lower.stl)                                                                                   | [Xol_Swingarm_Upper[two-part_carriage]](STL/Klicky-00_Xol_Swingarm_Upper[two-part_carriage].stl)<br/> [Xol_Swingarm_Lower[two-part_carriage]](STL/Klicky-00_Xol_Swingarm_Lower[two-part_carriage].stl)                                                                                   |
-| Buckshot PCB Klicky Swingarms Beta      | [Xol_PCB_Swingarm_Upper_Buckshot](STL/buckshot[beta]/Klicky-00_Xol_PCB_Swingarm_Upper_Buckshot.stl)<br/> [Xol_PCB_Swingarm_Lower_Buckshot](STL/buckshot[beta]/Klicky-00_Xol_PCB_Swingarm_Lower_Buckshot.stl) | [Xol_PCB_Swingarm_Upper_Buckshot[two-part_carriage]](STL/buckshot[beta]/Klicky-00_Xol_PCB_Swingarm_Upper_Buckshot[two-part_carriage].stl)<br/> [Xol_PCB_Swingarm_Lower_Buckshot[two-part_carriage]](STL/buckshot[beta]/Klicky-00_Xol_PCB_Swingarm_Lower_Buckshot[two-part_carriage].stl) |
-| Buckshot Standard Klicky Swingarms Beta | [Xol_Swingarm_Upper_Buckshot](STL/buckshot[beta]/Klicky-00_Xol_Swingarm_Upper_Buckshot.stl)<br/> [Xol_Swingarm_Lower_Buckshot](STL/buckshot[beta]/Klicky-00_Xol_Swingarm_Lower_Buckshot.stl)                 | [Xol_Swingarm_Upper_Buckshot[two-part_carriage]](STL/buckshot[beta]/Klicky-00_Xol_Swingarm_Upper_Buckshot[two-part_carriage].stl)<br/> [Xol_Swingarm_Lower_Buckshot[two-part_carriage]](STL/buckshot[beta]/Klicky-00_Xol_Swingarm_Lower_Buckshot[two-part_carriage].stl)                 |
-
-### Archetype Toolhead probe parts
-
-| Part                        | STL Links                                                                                                                                                                                                    |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Unklicky Front              | [Klicky-00_Archetype_Unklicky_Front.stl](STL/Klicky-00_Archetype_Unklicky_Front.stl)                                                                                                                            |
-| D2F Front                   | [Klicky-00_Archetype_D2F_Front.stl](STL/Klicky-00_Archetype_D2F_Front.stl)                                                                                                                                      |
-| Swingarms                   | [Archetype_Swingarm_Upper](STL/Klicky-00_Archetype_Swingarm_Upper.stl) <br/> [Archetype_Swingarm_Lower](STL/Klicky-00_Archetype_Swingarm_Lower.stl)                                                                   |
-| Buckshot Front `Beta`     | [Klicky-00_Archetype_Buckshot_Front.stl](STL/buckshot[beta]/Klicky-00_Archetype_Buckshot_Front.stl)                                                                                                             |
-| Buckshot Swingarms `Beta` | [Archetype_Swingarm_Upper_Buckshot](STL/buckshot[beta]/Klicky-00_Archetype_Swingarm_Upper_Buckshot.stl) <br/> [Archetype_Swingarm_Lower_Buckshot](STL/buckshot[beta]/Klicky-00_Archetype_Swingarm_Lower_Buckshot.stl) |
-
-### StealthBurner Toolhead probe parts
-
-| Part                                        | STL Links                                                                                                      |
-| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| Unklicky Front                              | [Klicky-00_SB_Unklicky_Front.stl](STL/Klicky-00_SB_Unklicky_Front.stl)                                            |
-| D2F Front                                   | [Klicky-00_SB_D2F_Front.stl](STL/Klicky-00_SB_D2F_Front.stl)                                                      |
-| Swingarms (work with Buckshot Beta as well) | [SB_Swingarm_Upper](STL/Klicky-00_SB_Swingarm_Upper.stl) <br/> [SB_Swingarm_Lower](STL/Klicky-00_SB_Swingarm_Lower.stl) |
-| Buckshot Front `Beta`                     | [Klicky-00_SB_Buckshot_Front.stl](STL/buckshot[beta]/Klicky-00_SB_Buckshot_Front.stl)                             |
+#### A4T or Xol-Toolhead
+|          | Klicky PCB                                                         | Klicky Standard                                                          |
+| -------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------ |
+| Buckshot | [A4T-Xol - Buckshot - PCB.3mf](<3MF/A4T-Xol - Buckshot - PCB.3mf>) | [A4T-Xol - Buckshot - Klicky.3mf](<3MF/A4T-Xol - Buckshot - Klicky.3mf>) |
+| Unklicky | [A4T-Xol - Unklicky - PCB.3mf](<3MF/A4T-Xol - Unklicky - PCB.3mf>) | [A4T-Xol - Unklicky - Klicky.3mf](<3MF/A4T-Xol - Unklicky - Klicky.3mf>) |
+| D2F      | [A4T-Xol - D2F - PCB.3mf](<3MF/A4T-Xol - D2F - PCB.3mf>)           | [A4T-Xol - D2F - Klicky.3mf](<3MF/A4T-Xol - D2F - Klicky.3mf>)           |
+#### Archetype
+|          | Klicky PCB                                                             | Klicky Standard                                                              |
+| -------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| Buckshot | [Archetype - Buckshot - PCB.3mf](<3MF/Archetype - Buckshot - PCB.3mf>) | [Archetype - Buckshot - Klicky.3mf](<3MF/Archetype - Buckshot - Klicky.3mf>) |
+| Unklicky | [Archetype - Unklicky - PCB.3mf](<3MF/Archetype - Unklicky - PCB.3mf>) | [Archetype - Unklicky - Klicky.3mf](<3MF/Archetype - Unklicky - Klicky.3mf>) |
+| D2F      | [Archetype - D2F - PCB.3mf](<3MF/Archetype - D2F - PCB.3mf>)           | [Archetype - D2F - Klicky.3mf](<3MF/Archetype - D2F - Klicky.3mf>)           |
+#### StealthBurner
+|          | Klicky PCB                                                                     | Klicky Standard                                                                      |
+| -------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| Buckshot | [StealthBurner - Buckshot - PCB.3mf](<3MF/StealthBurner - Buckshot - PCB.3mf>) | [StealthBurner - Buckshot - Klicky.3mf](<3MF/StealthBurner - Buckshot - Klicky.3mf>) |
+| Unklicky | [StealthBurner - Unklicky - PCB.3mf](<3MF/StealthBurner - Unklicky - PCB.3mf>) | [StealthBurner - Unklicky - Klicky.3mf](<3MF/StealthBurner - Unklicky - Klicky.3mf>) |
+| D2F      | [StealthBurner - D2F - PCB.3mf](<3MF/StealthBurner - D2F - PCB.3mf>)           | [StealthBurner - D2F - Klicky.3mf](<3MF/StealthBurner - D2F - Klicky.3mf>)           |
+#### Extras
+| File                                                                                                                      | Description                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| [StealthBurner - Klicky_Toolhead_Mount.3mf](<3MF/StealthBurner - Klicky_Toolhead_Mount.3mf>)                              | Klicky mount to use with standard StealthBurner carriage when using the "standard Klicky" mount type with Klicky-00 |
+| [Klicky-00_SLM_Nozzle_Plate.stl](<STL/SLM Nozzle Plate/Klicky-00_SLM_Nozzle_Plate.stl>)                                   | SLM Strike plate version for A4T or Xol-Toolhead                                                                    |
+| [Klicky-00_A4T-Xol_Buckshot_Front-Strike_SLM.stl](<STL/SLM Nozzle Plate/Klicky-00_A4T-Xol_Buckshot_Front-Strike_SLM.stl>) | SLM Strike plate version for A4T or Xol-Toolhead                                                                    |
 
 ## Instructions (PCB_Klicky Version with Unklcy switch)
-
 | Note                                                                                                                                                                                                                                                                                                                      | Picture                                         |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
 | Remove the built in support                                                                                                                                                                                                                                                                                               | ![Alt text](images/probe_remove_support.png)      |
