@@ -60,25 +60,25 @@ Pick your toolhead, switch type and mount type from the tables below to find the
 #### A4T or Xol-Toolhead
 |          | Klicky PCB                                                         | Klicky Standard                                                          |
 | -------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------ |
-| Buckshot | [A4T-Xol - Buckshot - PCB.3mf](<3MF/A4T-Xol - Buckshot - PCB.3mf>) | [A4T-Xol - Buckshot - Klicky.3mf](<3MF/A4T-Xol - Buckshot - Klicky.3mf>) |
-| Unklicky | [A4T-Xol - Unklicky - PCB.3mf](<3MF/A4T-Xol - Unklicky - PCB.3mf>) | [A4T-Xol - Unklicky - Klicky.3mf](<3MF/A4T-Xol - Unklicky - Klicky.3mf>) |
-| D2F      | [A4T-Xol - D2F - PCB.3mf](<3MF/A4T-Xol - D2F - PCB.3mf>)           | [A4T-Xol - D2F - Klicky.3mf](<3MF/A4T-Xol - D2F - Klicky.3mf>)           |
+| Buckshot | [A4T-Xol - Buckshot - PCB.stl](<STL/A4T-Xol - Buckshot - PCB.stl>) | [A4T-Xol - Buckshot - Klicky.stl](<STL/A4T-Xol - Buckshot - Klicky.stl>) |
+| Unklicky | [A4T-Xol - Unklicky - PCB.stl](<STL/A4T-Xol - Unklicky - PCB.stl>) | [A4T-Xol - Unklicky - Klicky.stl](<STL/A4T-Xol - Unklicky - Klicky.stl>) |
+| D2F      | [A4T-Xol - D2F - PCB.stl](<STL/A4T-Xol - D2F - PCB.stl>)           | [A4T-Xol - D2F - Klicky.stl](<STL/A4T-Xol - D2F - Klicky.stl>)           |
 #### Archetype
 |          | Klicky PCB                                                             | Klicky Standard                                                              |
 | -------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| Buckshot | [Archetype - Buckshot - PCB.3mf](<3MF/Archetype - Buckshot - PCB.3mf>) | [Archetype - Buckshot - Klicky.3mf](<3MF/Archetype - Buckshot - Klicky.3mf>) |
-| Unklicky | [Archetype - Unklicky - PCB.3mf](<3MF/Archetype - Unklicky - PCB.3mf>) | [Archetype - Unklicky - Klicky.3mf](<3MF/Archetype - Unklicky - Klicky.3mf>) |
-| D2F      | [Archetype - D2F - PCB.3mf](<3MF/Archetype - D2F - PCB.3mf>)           | [Archetype - D2F - Klicky.3mf](<3MF/Archetype - D2F - Klicky.3mf>)           |
+| Buckshot | [Archetype - Buckshot - PCB.stl](<STL/Archetype - Buckshot - PCB.stl>) | [Archetype - Buckshot - Klicky.stl](<STL/Archetype - Buckshot - Klicky.stl>) |
+| Unklicky | [Archetype - Unklicky - PCB.stl](<STL/Archetype - Unklicky - PCB.stl>) | [Archetype - Unklicky - Klicky.stl](<STL/Archetype - Unklicky - Klicky.stl>) |
+| D2F      | [Archetype - D2F - PCB.stl](<STL/Archetype - D2F - PCB.stl>)           | [Archetype - D2F - Klicky.stl](<STL/Archetype - D2F - Klicky.stl>)           |
 #### StealthBurner
 |          | Klicky PCB                                                                     | Klicky Standard                                                                      |
 | -------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
-| Buckshot | [StealthBurner - Buckshot - PCB.3mf](<3MF/StealthBurner - Buckshot - PCB.3mf>) | [StealthBurner - Buckshot - Klicky.3mf](<3MF/StealthBurner - Buckshot - Klicky.3mf>) |
-| Unklicky | [StealthBurner - Unklicky - PCB.3mf](<3MF/StealthBurner - Unklicky - PCB.3mf>) | [StealthBurner - Unklicky - Klicky.3mf](<3MF/StealthBurner - Unklicky - Klicky.3mf>) |
-| D2F      | [StealthBurner - D2F - PCB.3mf](<3MF/StealthBurner - D2F - PCB.3mf>)           | [StealthBurner - D2F - Klicky.3mf](<3MF/StealthBurner - D2F - Klicky.3mf>)           |
+| Buckshot | [StealthBurner - Buckshot - PCB.stl](<STL/StealthBurner - Buckshot - PCB.stl>) | [StealthBurner - Buckshot - Klicky.stl](<STL/StealthBurner - Buckshot - Klicky.stl>) |
+| Unklicky | [StealthBurner - Unklicky - PCB.stl](<STL/StealthBurner - Unklicky - PCB.stl>) | [StealthBurner - Unklicky - Klicky.stl](<STL/StealthBurner - Unklicky - Klicky.stl>) |
+| D2F      | [StealthBurner - D2F - PCB.stl](<STL/StealthBurner - D2F - PCB.stl>)           | [StealthBurner - D2F - Klicky.stl](<STL/StealthBurner - D2F - Klicky.stl>)           |
 #### Extras
 | File                                                                                                                      | Description                                                                                                         |
 | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| [StealthBurner - Klicky_Toolhead_Mount.3mf](<3MF/StealthBurner - Klicky_Toolhead_Mount.3mf>)                              | Klicky mount to use with standard StealthBurner carriage when using the "standard Klicky" mount type with Klicky-00 |
+| [StealthBurner - Klicky_Toolhead_Mount.stl](<STL/StealthBurner - Klicky_Toolhead_Mount.stl>)                              | Klicky mount to use with standard StealthBurner carriage when using the "standard Klicky" mount type with Klicky-00 |
 | [Klicky-00_SLM_Nozzle_Plate.stl](<STL/SLM Nozzle Plate/Klicky-00_SLM_Nozzle_Plate.stl>)                                   | SLM Strike plate version for A4T or Xol-Toolhead                                                                    |
 | [Klicky-00_A4T-Xol_Buckshot_Front-Strike_SLM.stl](<STL/SLM Nozzle Plate/Klicky-00_A4T-Xol_Buckshot_Front-Strike_SLM.stl>) | SLM Strike plate version for A4T or Xol-Toolhead                                                                    |
 
