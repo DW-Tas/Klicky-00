@@ -99,7 +99,7 @@ Pick your toolhead, switch type and mount type from the tables below to find the
 | Install the magnets that live under the PCB. The rear one should attract to the dock, the other should repel the lower swing arm. You may need to swap between N35 and N52 magnets to get just enough spring force to activate the swing arm. Too much won't let the arm move and will push the klicky PCB magnets apart. | ![Alt text](images/probe_rear_body_magnets.png)   |
 | Install the Klicky PCB magnets with the counter sunk screws. Get your polarity right.                                                                                                                                                                                                                                     | ![Alt text](images/probe_install_pcb_magnets.png) |
 
-## Instructions (Stanrad Klicky Version)
+## Instructions (Standard Klicky Version)
 
 [Todo (sorry)]
 
