@@ -4,7 +4,7 @@
 > You need to have a good understanding of Klicky (+macro settings), probes, offsets and Klipper.
 
 It is highly recommended to have a working PCB Klicky or standard Klicky already installed on your toolhead and configured. Follow the instructions from Josar on the Klicky-Probe Github:
-[klipper configuration](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident#step-5-klipper-configuration) `<br/>`
+[klipper configuration](https://github.com/jlas1/Klicky-Probe/tree/main/Printers/Voron/v1.8_v2.4_Legacy_Trident#step-5-klipper-configuration) \
 Make sure to include the steps for [Klicky Probe as Endstop with constant Z-Offset](https://github.com/T4KUUY4/Voron-Stuff/tree/main/KlickyProbeZoffset).
 
 > [!IMPORTANT]
